@@ -57,3 +57,8 @@ const reverseCipher = (sentence) => {
     return words.join(' ');
 };
 
+module.exports = {
+    casesarCipher,
+    symbolCipher,
+    reverseCipher
+}
