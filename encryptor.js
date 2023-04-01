@@ -1,4 +1,4 @@
-const casesarCipher = (str, amount = 0) => {
+const caesarCipher = (str, amount = 0) => {
     if (amount < 0) {
         return casesarCipher(str, amount + 26);
     }
@@ -58,7 +58,7 @@ const reverseCipher = (sentence) => {
 };
 
 module.exports = {
-    casesarCipher,
+    caesarCipher,
     symbolCipher,
     reverseCipher
 }
