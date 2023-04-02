@@ -1,6 +1,6 @@
 const caesarCipher = (str, amount = 0) => {
     if (amount < 0) {
-        return casesarCipher(str, amount + 26);
+        return caesarCipher(str, amount + 26);
     }
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -61,4 +61,4 @@ module.exports = {
     caesarCipher,
     symbolCipher,
     reverseCipher
-}
+};
